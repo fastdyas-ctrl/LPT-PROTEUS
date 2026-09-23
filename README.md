@@ -6,7 +6,7 @@ Bibliothèque d'émulation du port parallèle standard IEEE 1284 (LPT / Centroni
 ---
 
 ## 📌 Présentation
-![schema lpt]('./DEMO LPT.png')
+![schema lpt]('./DEMO%20LPT.png')
 Cette bibliothèque permet d'utiliser les fonctions historiques en C/C++ de bas niveau du monde PC x86 (`inportb()` et `outportb()`) pour piloter un périphérique parallèle virtuel ou réel directement depuis Arduino.Deplus cette bibliotheque remplace `Serial.println()` par `pritnf()` pour les familiers a turbo c++
 
 Elle simule les adresses mémoires standard de la carte mère :
