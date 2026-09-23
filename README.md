@@ -1,5 +1,6 @@
 # Arduino-LPT-Emulation-Library
 
+![schema lpt](./lpt.png)
 Bibliothèque d'émulation du port parallèle standard IEEE 1284 (LPT / Centronics) pour microcontrôleurs ATmega328P (Arduino Uno / Nano), conçue spécialement pour le prototypage et la simulation sous **Proteus VSM (ISIS)**.
 
 ---
