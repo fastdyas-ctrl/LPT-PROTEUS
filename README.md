@@ -24,3 +24,29 @@ void setup() {
     initLPT(); // OBLIGATOIRE : Initialise les registres de direction DDRx
     // ... reste de votre code
 }
+```
+
+EXEMPLE CODE 
+
+```CPP
+#include<LPT.h>
+
+void setup () {
+   initLPT();//initLPT is oblication
+   outportb(0x378,0x04); // DATA PORT OUT ON D2
+   outportb(0x37A,0x01); // CMD PORT;
+   printf(2); // TEST PRINTF
+   
+// TODO: put your setup code here, to run once:
+
+}
+
+
+void loop() {
+   int val = inportb(0x379); //READ DATA OF STATE  REGISTER
+   printf(val,HEX); 
+   delay(1000);
+// TODO: put your main code here, to run repeatedly:
+
+}
+```
